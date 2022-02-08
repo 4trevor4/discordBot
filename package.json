@@ -1,0 +1,25 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "simple discord bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4trevor4/discordBot.git"
+  },
+  "author": "Trevor Beyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4trevor4/discordBot/issues"
+  },
+  "homepage": "https://github.com/4trevor4/discordBot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0"
+  }
+}
